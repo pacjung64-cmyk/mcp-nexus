@@ -3,3 +3,5 @@
 .env
 .DS_Store
 Thumbs.db
+PROPOSAL_FOR_CLAUDE_OSS.md
+*.proposal*

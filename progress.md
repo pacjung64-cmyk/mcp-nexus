@@ -17,4 +17,3 @@
 - [x] **Server Stdio / JSON-RPC Transport (`src/server.rs`)**: Serves Claude via standard JSON-RPC 2.0 stdio stream.
 - [x] **CLI & Daemon (`src/main.rs`)**: `mcp-nexus start`, `mcp-nexus list`, `mcp-nexus check`.
 - [x] **Tests (`tests/core_tests.rs`)**: 8/8 automated integration and unit tests passing.
-- [x] **Claude for OSS Application Proposal (`PROPOSAL_FOR_CLAUDE_OSS.md`)**: Complete 500-word justification ready for submission.
