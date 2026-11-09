@@ -1,0 +1,57 @@
+{
+  "project": "mcp-nexus",
+  "version": "0.1.0",
+  "description": "High-Performance Gateway, Router & Injection Shield for Model Context Protocol (MCP)",
+  "repository": "https://github.com/pacjung64-cmyk/mcp-nexus",
+  "release": "https://github.com/pacjung64-cmyk/mcp-nexus/releases/tag/v0.1.0",
+  "features": [
+    {
+      "name": "MCP 2024-11-05 Protocol Parser & JSON-RPC 2.0 Engine",
+      "file": "src/protocol.rs",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Config Loader (nexus.json & claude_desktop_config.json)",
+      "file": "src/config.rs",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Upstream Child Process Pool & Lifecycle Manager",
+      "file": "src/upstream.rs",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Virtual Tool Registry & Lazy Router",
+      "file": "src/router.rs",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Indirect Prompt Injection Shield & Content Filter",
+      "file": "src/shield.rs",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Tool Call Telemetry & Latency Profiler",
+      "file": "src/telemetry.rs",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Stdio & JSON-RPC Server Transport",
+      "file": "src/server.rs",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Automated Unit and Integration Test Suite",
+      "file": "tests/core_tests.rs",
+      "status": "completed",
+      "tested": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[package]
+name = "mcp-nexus"
+version = "0.1.0"
+edition = "2021"
+authors = ["pacjung64-cmyk <pacjung64@gmail.com>"]
+description = "High-Performance Gateway, Router & Injection Shield for Model Context Protocol (MCP)"
+license = "MIT"
+repository = "https://github.com/pacjung64-cmyk/mcp-nexus"
+keywords = ["mcp", "model-context-protocol", "claude", "agent", "gateway"]
+categories = ["development-tools", "command-line-utilities"]
+
+[dependencies]
+tokio = { version = "1.43", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0" }
+regex = { version = "1.11" }
+clap = { version = "4.5", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+futures = "0.3"
+async-trait = "0.1"
+anyhow = "1.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"
